@@ -16,7 +16,7 @@ function App() {
   const [modalImg, setModalImg] = useState(null);
 
   //unsplash api url
-  const url = `https://api.unsplash.com/search/photos/?client_id=PeHInwo4wEM-mlxWXANbP_LuxMipkZI9iUuVqyecDIo&page=${page}&query=${query}`;
+  const url = `https://api.unsplash.com/search/photos/?client_id=lGotqLU4Gbg74lO2mrl5Qe10pEQdADsoc5g0XvxF9fY&page=${page}&query=${query}`;
 
   function openModal(image) {
     setModalImg(image);
