@@ -1,0 +1,14 @@
+.loadMoreBtn {
+    padding: 16px;
+    background-color: #4e75ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .loadMoreContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }

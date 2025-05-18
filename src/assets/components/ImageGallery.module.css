@@ -1,0 +1,16 @@
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.galleryItem {
+  cursor: pointer;
+  list-style-type: none;
+}
+.galleryItem:hover {
+  transform: scale(1.1);
+}
