@@ -23,7 +23,7 @@ export default function SearchBar({ query, setQuery, setPage }) {
         <input
           type="text"
           autoComplete="off"
-          placeholder="Search images and photos"
+          placeholder="Search..."
           ref={inputRef}
           className={styles.searchInput}
         />

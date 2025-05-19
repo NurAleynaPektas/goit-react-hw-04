@@ -13,14 +13,14 @@ export default async function getAndSetImages(
     const data = response.data;
 
     if (data.results.lenght === 0) {
-      toast.eror("Nothing to find with this value, please try something elseé");
+      toast.error("Nothing to find with this value, please try something else");
     } else {
       more
         ? setImages((prevImages) => [...prevImages, ...data.results])
         : setImages([...data.results]);
     }
   } catch (eror) {
-    toast.eror(eror.message);
+    toast.error(eror.message);
   } finally {
     setLoading(false);
   }
