@@ -1,6 +1,6 @@
 import styles from "./LoadMoreBtn.module.css";
 
-export default function loadMoreBtn({ setPage }) {
+export default function LoadMoreBtn({ setPage }) {
   function handleLoadMore(e) {
     e.preventDefault();
     setPage((curPage) => curPage + 1);

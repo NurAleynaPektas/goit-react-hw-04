@@ -5,7 +5,7 @@ import ImageGallery from "./assets/components/ImageGallery";
 import Loader from "./assets/components/Loader";
 import LoadMoreBtn from "./assets/components/LoadMore";
 import ImageModal from "./assets/components/ImageModal";
-import getAndSetImages from "./assets/components/getAndSetImages";
+import GetAndSetImages from "./assets/components/GetAndSetImages";
 
 function App() {
   const [images, setImages] = useState([]);
@@ -31,9 +31,9 @@ function App() {
   useEffect(() => {
     if (query) {
       if (page > 1) {
-        getAndSetImages(url, setLoading, setImages, true);
+        GetAndSetImages(url, setLoading, setImages, true);
       } else {
-        getAndSetImages(url, setLoading, setImages);
+        GetAndSetImages(url, setLoading, setImages);
       }
     }
   }, [query, page, url]);

@@ -1,7 +1,7 @@
 import axios from "axios";
 import toast from "react-hot-toast";
 
-export default async function getAndSetImages(
+export default async function GetAndSetImages(
   url,
   setLoading,
   setImages,
